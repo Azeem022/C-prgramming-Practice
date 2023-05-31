@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int cp; int sp;
+	printf("entre the value of cp :");
+	scanf("%d",&cp);
+	printf("entre the value of sp");
+	scanf("%d",&sp);
+	if(sp>cp){
+	printf("profit");	
+	}
+	else{
+		printf("loss");
+	}
+	
+	return 0;
+}
