@@ -1,0 +1,27 @@
+# REVERSE OF N NUMBERS OF ARRAY:
+  #include<stdio.h>
+int main()
+{
+	int n,i;
+//	int arr[n];
+  //THIS IS FOR ASKING HOW MANY NUMBERS YOU WANT TO TAKE AS AN INPUT
+	printf("entre the size of an array:\n");
+	scanf("%d",&n);
+	int arr[n];
+	printf("entre %d element:\n",n);
+  // THIS FIRST LOOP FOR INPUT THOSE N NUMBERS OF ELEMENTS 
+	for(i=0;i<n;i++){
+		scanf("%d",&arr[i]);
+	}
+	printf("print the array:\n");
+  // THIS SECOND LOOP FOR OUTPUT, YOUR ELEMENT WHICH YOU ALREADY TAKE AS AN INPUR TO PRINT ON YOUR OUTPUT SCREEN
+	for(i=0;i<n;i++){
+		printf("printing element is %d\n",arr[i]);
+	}
+	printf("the reverse array is :\n");
+  // THIS IS THE LOGIC FOR REVERSE ARRAY
+	for(i=n-1;i>=0;i--){
+		printf("the reverse array is :%d\n",arr[i]);
+	}
+	return 0;
+}
