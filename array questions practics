@@ -25,3 +25,22 @@ int main()
 	}
 	return 0;
 }
+#  SUM OF N NUMBERS OF ARRAY:
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0;
+	printf("entre the size of an array:");
+	scanf("%d",&n);
+	int arr[n];
+	printf("entre those element that you want to sum \n");
+	for(i=0;i<n;i++){
+		scanf("%d",&arr[i]);
+	}
+//	printf("sum of all the element is :");
+	for(i=0;i<n;i++){
+		sum=sum+arr[i];
+	}
+	printf("sum of all the element is :%d",sum);
+	return 0;
+}
