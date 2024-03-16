@@ -175,3 +175,45 @@ int main()
 	printf("\n\n");
 	return 0;
 }
+//MOST IMPORTANT QUESTION 
+# PROGRAMM TO FIND MAXIMUM AND MINIMUM OF A GIVEN ARRAR.
+#include<stdio.h>
+int main()
+{
+	int n,m,i,j,max,min;
+	printf("entre the size of an array:");
+	scanf("%d",&n);
+	int arr[200];
+	for(i=0;i<n;i++)
+	{
+		//printf("%d",n);
+		scanf("%d",&arr[i]);
+	}
+	max=arr[0];
+	for(i=0;i<n;i++)
+	{
+	if(arr[i]>max)
+		{
+			max=arr[i];
+		}
+	}
+	printf("the maximum value is :%d\n",max);
+	printf("entre the size of an array:");
+	scanf("%d",&m);
+	int arr1[m];
+	for(j=0;j<m;j++)
+	{
+		//printf("%d",n);
+		scanf("%d",&arr1[j]);
+	}
+	min=arr1[0];
+	for(j=0;j<m;j++)
+	{
+	if(arr1[j]<min)
+		{
+			min=arr1[j];
+		}
+	}
+	printf("the manimum value is :%d",min);
+	return 0;
+}
