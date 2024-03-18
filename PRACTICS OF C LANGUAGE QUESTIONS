@@ -1,0 +1,11 @@
+QUESTION 1:
+// FIND ASCII VALUE OF ANY VARIABLE
+#include<stdio.h>
+int main()
+{
+	char variable;
+	printf("enter the variable:");
+	scanf("%c",&variable);
+	printf("%d",variable);
+	return 0;
+}
