@@ -90,3 +90,24 @@ int main()
     }
 	return 0;
 }
+QUWSTION 4:
+// GREATEST NUMBER BETWEEN NUM1 OR NUM2:
+#include<stdio.h>
+int main()
+{
+	int num1, num2;
+	printf("entre the num1:");
+	scanf("%d",&num1);
+	printf("entre the num2:");
+	scanf("%d",&num2);
+	switch(num1>num2)
+	{
+		case 1:
+		printf("%d is greatest:",num1);
+		break;
+		default:
+		printf("%d is greatest:",num2);
+		break;	
+	}
+	return 0;
+}
