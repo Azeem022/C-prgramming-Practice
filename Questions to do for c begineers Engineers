@@ -5,27 +5,19 @@ Find ASCII Value of Character
 Using gets() function
 If-Else
 Switch Case
-Checking for Vowel
-Swapping Two Numbers
 Largest and Smallest using Global Declaration
 Loops
 Basic for Loop
 Basic while Loop
 Basic do-while Loop
 Nested for Loops
-Program to find Factorial of number
-Fibonacci Series Program
-Palindrome Program
 Program to find Sum of Digits
-Program to reverse a String
 Number Crunching
-Program to find Average of n Numbers
-Armstrong Number                               
+Program to find Average of n Numbers           
 Checking input number for Odd or Even
 Print Factors of a Number
 Find sum of n Numbers                 
 Print first n Prime Numbers                             *************************** not done till now.
-Find Largest among n Numbers
 Exponential without pow() method
 Find whether number is int or float
 Print Multiplication Table of input Number
@@ -95,3 +87,16 @@ Without Main Function
 Menu Driven Program
 Changing Text Background Color
 Current Date and Time
+                                     ******************************************    MOST 
+                                     ******************************************        IMPORTANT
+                                     ******************************************                 QUESTIONS
+
+
+Checking for Vowel
+Swapping Two Numbers
+Program to find Factorial of number
+Fibonacci Series Program
+Palindrome Program
+Program to reverse a String
+Armstrong Number  
+Find Largest among n Numbers
